@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="3" errors="0" failures="3" skip="0"><testcase classname="tests.BasicTestCase" name="test_add_two_integers" time="0.001"><failure type="builtins.AssertionError" message="15 != None"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\Users\PC\Documents\GitHub\lets-test-python-Csaba79-coder\tests.py", line 10, in test_add_two_integers
+    self.assertEqual(expected_result, actual_result)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 15 != None
+]]></failure></testcase><testcase classname="tests.BasicTestCase" name="test_is_integer_a_greater_than_integer_b" time="0.000"><failure type="builtins.AssertionError" message="False != None"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\Users\PC\Documents\GitHub\lets-test-python-Csaba79-coder\tests.py", line 17, in test_is_integer_a_greater_than_integer_b
+    self.assertEqual(expected_result, actual_result)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: False != None
+]]></failure></testcase><testcase classname="tests.BasicTestCase" name="test_say_hello" time="0.000"><failure type="builtins.AssertionError" message="'Hello, Marcus!' != None"><![CDATA[Traceback (most recent call last):
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 60, in testPartExecutor
+    yield
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 676, in run
+    self._callTestMethod(testMethod)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 633, in _callTestMethod
+    method()
+  File "c:\Users\PC\Documents\GitHub\lets-test-python-Csaba79-coder\tests.py", line 23, in test_say_hello
+    self.assertEqual(expected_result, actual_result)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\PC\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 'Hello, Marcus!' != None
+]]></failure></testcase></testsuite>
